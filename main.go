@@ -160,7 +160,7 @@ func main() {
 	fmt.Println("######################################################################################################################")
 	fmt.Println("#                                                  .SYS                                                              #")
 	fmt.Println("######################################################################################################################")
-	fmt.Println("                                               Tic Toc Toe                                                            ")
+	fmt.Println("                                               Tic Tac Toe                                                            ")
 	fmt.Println("1.Play with computer\n2.Play with human\n3.Any other number for Exit\nEnter your Choice:")
 	fmt.Scanln(&playmode)
 	if playmode == 1 {
