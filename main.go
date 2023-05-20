@@ -44,28 +44,28 @@ func getDefencePosition(gameDashboardArray []string, poition int, opponentSymbol
 	}
 	//For 1 as common
 	if gameDashboardArray[1-1] == gameDashboardArray[2-1] && gameDashboardArray[1-1] == opponentSymbol {
-		fmt.Println("Tested 1-2", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 1-2", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[3-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
 		}
 	}
 	if gameDashboardArray[1-1] == gameDashboardArray[3-1] && gameDashboardArray[1-1] == opponentSymbol {
-		fmt.Println("Tested 1-3", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 1-3", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[2-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
 		}
 	}
 	if gameDashboardArray[1-1] == gameDashboardArray[4-1] && gameDashboardArray[1-1] == opponentSymbol {
-		fmt.Println("Tested 1-4", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 1-4", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[7-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
 		}
 	}
 	if gameDashboardArray[1-1] == gameDashboardArray[5-1] && gameDashboardArray[1-1] == opponentSymbol {
-		fmt.Println("Tested 1-5", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 1-5", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[9-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -73,7 +73,7 @@ func getDefencePosition(gameDashboardArray []string, poition int, opponentSymbol
 	}
 
 	if gameDashboardArray[1-1] == gameDashboardArray[7-1] && gameDashboardArray[1-1] == opponentSymbol {
-		fmt.Println("Tested 1-7", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 1-7", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[4-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -81,7 +81,7 @@ func getDefencePosition(gameDashboardArray []string, poition int, opponentSymbol
 	}
 
 	if gameDashboardArray[1-1] == gameDashboardArray[9-1] && gameDashboardArray[1-1] == opponentSymbol {
-		fmt.Println("Tested 1-9", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 1-9", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[5-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -89,7 +89,7 @@ func getDefencePosition(gameDashboardArray []string, poition int, opponentSymbol
 	}
 	//For 2 as common
 	if gameDashboardArray[2-1] == gameDashboardArray[3-1] && gameDashboardArray[2-1] == opponentSymbol {
-		fmt.Println("Tested 2-3", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 2-3", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[1-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -97,7 +97,7 @@ func getDefencePosition(gameDashboardArray []string, poition int, opponentSymbol
 	}
 
 	if gameDashboardArray[2-1] == gameDashboardArray[5-1] && gameDashboardArray[2-1] == opponentSymbol {
-		fmt.Println("Tested 2-5", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 2-5", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[8-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -105,7 +105,7 @@ func getDefencePosition(gameDashboardArray []string, poition int, opponentSymbol
 	}
 
 	if gameDashboardArray[2-1] == gameDashboardArray[8-1] && gameDashboardArray[2-1] == opponentSymbol {
-		fmt.Println("Tested 2-8", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 2-8", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[5-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -115,28 +115,28 @@ func getDefencePosition(gameDashboardArray []string, poition int, opponentSymbol
 	//For 3 common
 
 	if gameDashboardArray[3-1] == gameDashboardArray[5-1] && gameDashboardArray[3-1] == opponentSymbol {
-		fmt.Println("Tested 3-5", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 3-5", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[7-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
 		}
 	}
 	if gameDashboardArray[3-1] == gameDashboardArray[6-1] && gameDashboardArray[3-1] == opponentSymbol {
-		fmt.Println("Tested 3-6", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 3-6", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[9-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
 		}
 	}
 	if gameDashboardArray[3-1] == gameDashboardArray[7-1] && gameDashboardArray[3-1] == opponentSymbol {
-		fmt.Println("Tested 3-5", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 3-5", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[5-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
 		}
 	}
 	if gameDashboardArray[3-1] == gameDashboardArray[9-1] && gameDashboardArray[3-1] == opponentSymbol {
-		fmt.Println("Tested 3-9", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 3-9", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[6-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -144,14 +144,14 @@ func getDefencePosition(gameDashboardArray []string, poition int, opponentSymbol
 	}
 	//For 4 common
 	if gameDashboardArray[4-1] == gameDashboardArray[5-1] && gameDashboardArray[4-1] == opponentSymbol {
-		fmt.Println("Tested 4-5", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 4-5", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[6-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
 		}
 	}
 	if gameDashboardArray[4-1] == gameDashboardArray[6-1] && gameDashboardArray[4-1] == opponentSymbol {
-		fmt.Println("Tested 4-6", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 4-6", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[5-1]
 		//fmt.Println(randomArray)
 		if Contains(randomArray, stringToInt(considerValue)) {
@@ -159,7 +159,7 @@ func getDefencePosition(gameDashboardArray []string, poition int, opponentSymbol
 		}
 	}
 	if gameDashboardArray[4-1] == gameDashboardArray[7-1] && gameDashboardArray[4-1] == opponentSymbol {
-		fmt.Println("Tested 4-7", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 4-7", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[1-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -168,28 +168,28 @@ func getDefencePosition(gameDashboardArray []string, poition int, opponentSymbol
 
 	//For 5 common
 	if gameDashboardArray[5-1] == gameDashboardArray[6-1] && gameDashboardArray[5-1] == opponentSymbol {
-		fmt.Println("Tested 5-6", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 5-6", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[4-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
 		}
 	}
 	if gameDashboardArray[5-1] == gameDashboardArray[7-1] && gameDashboardArray[5-1] == opponentSymbol {
-		fmt.Println("Tested 5-6", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 5-6", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[3-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
 		}
 	}
 	if gameDashboardArray[5-1] == gameDashboardArray[8-1] && gameDashboardArray[5-1] == opponentSymbol {
-		fmt.Println("Tested 5-8", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 5-8", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[2-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
 		}
 	}
 	if gameDashboardArray[5-1] == gameDashboardArray[9-1] && gameDashboardArray[5-1] == opponentSymbol {
-		fmt.Println("Tested 5-9", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 5-9", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[1-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -197,7 +197,7 @@ func getDefencePosition(gameDashboardArray []string, poition int, opponentSymbol
 	}
 	//For 6 common
 	if gameDashboardArray[6-1] == gameDashboardArray[9-1] && gameDashboardArray[6-1] == opponentSymbol {
-		fmt.Println("Tested 6-9", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 6-9", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[3-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -205,14 +205,14 @@ func getDefencePosition(gameDashboardArray []string, poition int, opponentSymbol
 	}
 	//For 7 common
 	if gameDashboardArray[7-1] == gameDashboardArray[8-1] && gameDashboardArray[7-1] == opponentSymbol {
-		fmt.Println("Tested 7-8", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 7-8", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[9-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
 		}
 	}
 	if gameDashboardArray[7-1] == gameDashboardArray[9-1] && gameDashboardArray[7-1] == opponentSymbol {
-		fmt.Println("Tested 7-8", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 7-8", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[8-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -220,7 +220,7 @@ func getDefencePosition(gameDashboardArray []string, poition int, opponentSymbol
 	}
 	//For 8 common
 	if gameDashboardArray[8-1] == gameDashboardArray[9-1] && gameDashboardArray[8-1] == opponentSymbol {
-		fmt.Println("Tested 8-9", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 8-9", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[7-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -240,7 +240,7 @@ func getDefencePositionOddeConditions(gameDashboardArray []string, poition int, 
 		}
 	}
 	if gameDashboardArray[1-1] == gameDashboardArray[6-1] && gameDashboardArray[1-1] == opponentSymbol {
-		fmt.Println("Tested 1-7", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 1-7", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[3-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -251,7 +251,7 @@ func getDefencePositionOddeConditions(gameDashboardArray []string, poition int, 
 		}
 	}
 	if gameDashboardArray[1-1] == gameDashboardArray[8-1] && gameDashboardArray[1-1] == opponentSymbol {
-		fmt.Println("Tested 1-9", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 1-9", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[7-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -262,7 +262,7 @@ func getDefencePositionOddeConditions(gameDashboardArray []string, poition int, 
 		}
 	}
 	if gameDashboardArray[2-1] == gameDashboardArray[4-1] && gameDashboardArray[2-1] == opponentSymbol {
-		fmt.Println("Tested 2-5", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 2-5", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[1-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -273,7 +273,7 @@ func getDefencePositionOddeConditions(gameDashboardArray []string, poition int, 
 		}
 	}
 	if gameDashboardArray[2-1] == gameDashboardArray[6-1] && gameDashboardArray[2-1] == opponentSymbol {
-		fmt.Println("Tested 2-8", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 2-8", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[3-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -284,7 +284,7 @@ func getDefencePositionOddeConditions(gameDashboardArray []string, poition int, 
 		}
 	}
 	if gameDashboardArray[2-1] == gameDashboardArray[7-1] && gameDashboardArray[2-1] == opponentSymbol {
-		fmt.Println("Tested 2-8", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 2-8", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[1-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -295,7 +295,7 @@ func getDefencePositionOddeConditions(gameDashboardArray []string, poition int, 
 		}
 	}
 	if gameDashboardArray[2-1] == gameDashboardArray[9-1] && gameDashboardArray[2-1] == opponentSymbol {
-		fmt.Println("Tested 2-8", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 2-8", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[3-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -306,7 +306,7 @@ func getDefencePositionOddeConditions(gameDashboardArray []string, poition int, 
 		}
 	}
 	if gameDashboardArray[3-1] == gameDashboardArray[4-1] && gameDashboardArray[3-1] == opponentSymbol {
-		fmt.Println("Tested 3-5", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 3-5", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[1-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -321,7 +321,7 @@ func getDefencePositionOddeConditions(gameDashboardArray []string, poition int, 
 		}
 	}
 	if gameDashboardArray[3-1] == gameDashboardArray[8-1] && gameDashboardArray[3-1] == opponentSymbol {
-		fmt.Println("Tested 3-5", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 3-5", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[9-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -340,7 +340,7 @@ func getDefencePositionOddeConditions(gameDashboardArray []string, poition int, 
 		}
 	}
 	if gameDashboardArray[4-1] == gameDashboardArray[8-1] && gameDashboardArray[4-1] == opponentSymbol {
-		fmt.Println("Tested 4-7", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 4-7", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[7-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -355,7 +355,7 @@ func getDefencePositionOddeConditions(gameDashboardArray []string, poition int, 
 		}
 	}
 	if gameDashboardArray[4-1] == gameDashboardArray[9-1] && gameDashboardArray[4-1] == opponentSymbol {
-		fmt.Println("Tested 4-7", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 4-7", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[1-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -374,7 +374,7 @@ func getDefencePositionOddeConditions(gameDashboardArray []string, poition int, 
 		}
 	}
 	if gameDashboardArray[6-1] == gameDashboardArray[7-1] && gameDashboardArray[6-1] == opponentSymbol {
-		fmt.Println("Tested 6-9", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 6-9", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[1-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -393,7 +393,7 @@ func getDefencePositionOddeConditions(gameDashboardArray []string, poition int, 
 		}
 	}
 	if gameDashboardArray[6-1] == gameDashboardArray[8-1] && gameDashboardArray[6-1] == opponentSymbol {
-		fmt.Println("Tested 6-9", gameDashboardArray, opponentSymbol)
+		//fmt.Println("Tested 6-9", gameDashboardArray, opponentSymbol)
 		considerValue := gameDashboardArray[9-1]
 		if Contains(randomArray, stringToInt(considerValue)) {
 			return stringToInt(considerValue)
@@ -437,7 +437,7 @@ func updateDashBoard(dashboard string, gameDashboardArray []string, poition int,
 	if humanMode == false {
 		dashboard = fmt.Sprintf("| %s | %s | %s |\n__________\n| %s | %s | %s |\n__________\n| %s | %s | %s |", gameDashboardArray[0], gameDashboardArray[1], gameDashboardArray[2], gameDashboardArray[3], gameDashboardArray[4], gameDashboardArray[5], gameDashboardArray[6], gameDashboardArray[7], gameDashboardArray[8])
 		if CheckWin(gameDashboardArray, dashboard, symbol) {
-			os.Exit(1)
+			os.Exit(0)
 		}
 		opponentSymbol := symbol
 		if symbol == "O" {
@@ -458,7 +458,7 @@ func updateDashBoard(dashboard string, gameDashboardArray []string, poition int,
 		dashboard = fmt.Sprintf("| %s | %s | %s |\n__________\n| %s | %s | %s |\n__________\n| %s | %s | %s |", gameDashboardArray[0], gameDashboardArray[1], gameDashboardArray[2], gameDashboardArray[3], gameDashboardArray[4], gameDashboardArray[5], gameDashboardArray[6], gameDashboardArray[7], gameDashboardArray[8])
 		if CheckWin(gameDashboardArray, dashboard, symbol) {
 			//fmt.Println(fmt.Sprintf("| %s | %s | %s |\n__________\n| %s | %s | %s |\n__________\n| %s | %s | %s |", gameDashboardArray[0], gameDashboardArray[1], gameDashboardArray[2], gameDashboardArray[3], gameDashboardArray[4], gameDashboardArray[5], gameDashboardArray[6], gameDashboardArray[7], gameDashboardArray[8]))
-			os.Exit(1)
+			os.Exit(0)
 		}
 		if symbol == "O" {
 			symbol = "*"
@@ -593,7 +593,7 @@ func humanMode(gameDashboard string, gameDashboardArray []string, humanMode bool
 	fmt.Scanln(&symbolChoice)
 	if symbolChoice != "O" {
 		if symbolChoice != "*" {
-			os.Exit(1)
+			os.Exit(0)
 		}
 	}
 	fmt.Println("Game Started")
@@ -617,8 +617,10 @@ func main() {
 		fmt.Println("Choose difficulty level:\n1.Easy\n2.Medium\n3.Hard\nEnter your choice:")
 		fmt.Scanln(&level)
 		humanMode(gameDashboard, gameDashboardArray, false, level)
-	} else {
+	} else if playmode == 2 {
 		humanMode(gameDashboard, gameDashboardArray, true, level)
+	} else {
+		os.Exit(0)
 	}
 
 }
